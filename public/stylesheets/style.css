@@ -1,0 +1,90 @@
+body {
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+  min-height: 100vh;
+
+  font-family: 'Raleway', sans-serif;
+  color: white !important;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: white !important;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: #00416A;
+    padding: 0px 50px;
+}
+
+.block-icon{
+    width: 300px;
+}
+
+.block-icon img{
+    width: 200px;
+}
+
+.block-nav {
+    width: 500px;
+}
+
+.block-nav nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.block-user {
+    width: 300px;
+}
+
+.block-user nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.block-user nav ul li{
+    margin-left: 10px;
+    
+}
+
+.listado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #00416A;
+    padding: 0px 50px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+}
